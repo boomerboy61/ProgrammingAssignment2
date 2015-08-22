@@ -2,7 +2,10 @@
 ## functions do
 
 ## Write a short comment describing this function
-
+  # The object holds the initial matrix.
+  # It also contains the methods (functions) for storing and 
+  # retrieving the initial matrix.
+  
 makeCacheMatrix <- function(x = matrix()) {
  m <- NULL
   set <- function(y) {
@@ -18,6 +21,10 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+   # The inverted matrix info is retrieved.
+    # If it is not already stored.  The initial matrix is retrieved
+    # from the incoming parameter and the inverted matrix is calculated.
+    # The calculated matrix is then cached.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
